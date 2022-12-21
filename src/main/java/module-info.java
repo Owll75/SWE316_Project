@@ -1,10 +1,7 @@
-module com.example.project316 {
+module swe316_hw {
     requires javafx.controls;
     requires javafx.fxml;
-    requires org.apache.poi.poi;
-    
 
-
-    opens com.example.hw316 to javafx.fxml;
-    exports com.example.hw316;
+    opens swe316_hw to javafx.fxml;
+    exports swe316_hw;
 }
